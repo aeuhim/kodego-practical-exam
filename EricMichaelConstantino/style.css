@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+#root {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-image: url(resource/background.png);
+}
+
+#female {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: translateY(-20%);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+#headline1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: transform 0.7s;
+}
+
+#headline2 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: translateX(100%) translateY(-20%);
+    transition: transform 0.5s;
+}
+
+#subheadline {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    transform: translateX(-32%) translateY(4%);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+#learnmore {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    transform: translateX(10%) translateY(310%);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+#logo {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translateX(-80%) translateY(-15%);
+    transition: transform 0.5s;
+}
+
+#replay {
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    transform: translateX(50%) translateY(500%);
+    transition: opacity 0.5s;
+    opacity: 0;
+}
